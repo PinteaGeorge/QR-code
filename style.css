@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Outfit";
+    src: url("static/Outfit-Medium.ttf") format("truetype");
+}
+
+
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container{
+    margin: 0;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    padding: 20px;
+    width: 350px;
+    height: 570px;
+}
+
+.card{
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-family:"Outfit";
+    text-align: center;
+}
+
+.image{
+    border-radius: 15px;
+}
+
+.p1{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.p2{
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
